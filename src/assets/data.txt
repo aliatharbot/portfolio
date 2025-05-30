@@ -1,0 +1,221 @@
+.profilepicturecontainer {
+            /* width: 100%; */
+            max-width:20vw;
+            /* margin-left:px ; */
+            padding: 3em 1rem;
+            /* position: absolute; */
+            /* flex: 1; */
+            /* z-index: 2; */
+            /* margin-top: -43%;
+            margin-left:65%; */
+            /* margin-top: -1px; */
+            background-color: #edc090;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            margin-bottom: 30px;
+            border-radius: 13px;
+            }
+            .contactandpicture{
+                position: relative;
+                display: flex;
+                /* margin-left: 20px; */
+                /* margin-top: 0%; */
+                flex-direction: column;
+                margin: 2px;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            .contactcontainer{
+                margin-right: 150px;
+            }
+            
+            #image {
+            /* width: 200px; */
+            /* height: 700px; */
+            object-fit: contain;
+            mix-blend-mode: multiply;
+            object-position: cover;
+            }
+            .contactme2 {
+                width: 20vw;
+                margin: 0;
+                /* margin-right: 2%; */
+                /* padding-right: 20px; */
+                /* padding-left: 50px; */
+                /* height: 230px; */
+                /* margin-right:80px; */
+                padding: 0em 3.5em;
+                padding-left: 0;
+                margin-left: 50px;
+                /* padding-bottom: 0; */
+                
+                background-color: #edc090;
+                position: relative;
+                display: flex;
+                border-radius: 13px;
+                /* margin-top: 30px; */
+                }
+                .contactme2 h3{
+                    font-size: 40px;
+                    padding-top: 1.8em;
+                    font-family: "PT Serif", serif;
+                    font-weight: 700;
+                    font-style: normal;
+                    margin-left: 10px;
+                }
+                .contactme2 h3 span{
+                    font-family: "Norican", cursive;
+                    font-weight: 100;
+                    font-style: normal;
+                }
+                .name2{
+                    position: absolute;
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    font-family: "PT Serif", serif;
+                    font-weight: 700;
+                    font-style: normal;
+                }
+                .skillspart {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .skills {
+                    margin-top: 12px;
+                    width: 30vw;
+                    padding: 12em 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    /* height: 490px; */
+                    background-color: #b48a63;
+                    /* margin-left: 35px; */
+                    border-radius: 13px;
+                    }
+                    .contactmecontainer{
+                        display: none;
+                    }
+                    .letstalk{
+                        display: none;
+                    }
+                    .cards{
+                        display: flex;
+                        flex-direction: row;
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+                    .aboutus {
+    display: none;
+  }
+  .aboutus2 {
+    margin: 2px;
+    display: flex;
+    margin-top: 8px;
+    /* min-height:15vh; */
+    /* max-height:19vh ; */
+    /* width: 100%; */
+    /* position: relative; */
+    /* max-width: 50em; */
+    width: 35vw;
+    /* white-space: nowrap; */
+    /* max-height: 20rem; */
+    padding: 1em 1em;
+    /* max-height: 10em; */
+    /* padding-bottom: ; */
+    /* max-height: 15em; */
+    position: relative;
+    /* height: 900px; */
+    background-color: #b48a63;
+    border-radius: 13px;
+  }
+  .aboutus2 h3 {
+    font-size: 1.1vw;
+    font-family: "PT Serif", serif;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-style: normal;
+  }
+  .aboutus2 span {
+    font-size: 1.1vw;
+    font-family: "Norican", cursive;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .contactme {
+  /* width: 100%; */
+  /* height: 230px; */
+  background-color: #edc090;
+  display: flex;
+  border-radius: 13px;
+  /* margin-top: 12px; */
+}
+.contactme h3 {
+  font-size: 40px;
+  margin: 0;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  transform: translateY(140%);
+}
+.contactme h3 span {
+  font-family: "Norican", cursive;
+  font-weight: 100;
+  font-style: normal;
+}
+.name {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+}
+.contactme ul {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 60px;
+  font-size: 20px;
+  padding-left: 20px;
+  gap: 10px;
+  white-space: nowrap;
+}
+.aboutus2 {
+  display: none;
+}
+.contactme ul li span {
+  /* font-size: 10px; */
+  padding-left: 15px;
+  white-space: nowrap;
+}
