@@ -34,7 +34,7 @@ const SkillBar = ({ skill }) => {
         <span className="font-semibold font-sans text-black">{skill.name}</span>
         <span className="text-black">{percentage}%</span>
       </div>
-      <div className="w-full h-2 bg-gray-300 rounded mt-2">
+      <div className="w-full  bg-gray-300 rounded mt-2">
         <div
           className="h-2 bg-black rounded transition-all duration-500"
           style={{ width: `${percentage}%` }}
@@ -46,8 +46,8 @@ const SkillBar = ({ skill }) => {
 
 export default function SkillsSection() {
   return (
-    <div className="px-10 py-10 rounded-xl mx-auto mt-4">
-      <h2 className="text-4xl font-bold font-serif text-black mb-2 text-center">My Skills</h2>
+    <div className=" rounded-xl ">
+      <h2 className="text-4xl font-bold font-serif text-black text-center">My Skills</h2>
       {skillsData.map((skill, idx) => (
         <SkillBar skill={skill} key={idx} />
       ))}

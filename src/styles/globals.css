@@ -1,1 +1,34 @@
 @import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+@media (min-width: 1024px) and (max-width: 1343px) {
+  .custom-contact {
+    /* margin-top: 2vw !important; */
+    padding-top: 3vw !important;
+    padding-bottom: 3vw !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-profile{
+    height: calc(100vh - 55vw ) !important;
+  }
+}
+@media (min-width: 1040px) and (max-width: 1189px) {
+  .custom2-contact{
+     margin-top: 1vw !important;
+    padding-top: 4vw !important;
+    padding-bottom: 4vw !important;
+  }
+}
+@media (min-width: 1715px) and (max-width: 2579px) {
+  .custom-text{
+    font-size: 1.1em !important;
+  }
+  .custom2-text{
+    font-size:2.5em;
+  }
+    .custom2-profile{
+    height: calc(100vh - 38vw ) !important;
+  }
+}

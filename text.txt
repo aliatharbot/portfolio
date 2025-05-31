@@ -1,0 +1,47 @@
+<div className="card2 sm:w-auto flex flex-col gap-[2em] lg:items-center ">
+        <div className="profilepicturecontainer lg:mt-4 lg:py-[4em] flex justify-center items-center rounded-xl bg-[#edc090] sm:w-auto px-[3em] ">
+          <Image
+            id="image"
+            className="mix-blend-multiply object-cover lg:w-[12vw] sm:w-[30vw]"
+            width={100}
+            src={profile}
+            alt="profileshow"
+          />
+        </div>
+
+        <div className="contactme bg-[#edc090] rounded-xl sm:p-[2em]">
+            <span className="name2 font-sans sm:text-[1.5em]">
+              Muhamad Ali 
+              Athar{" "}
+            </span>
+            <ul className="space-y-1 mb-3">
+              <li className="gap-2 flex items-center">
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  className="text-base sm:text-xl"
+                />
+                <span className="sm:text-[1.5em] font-sans">ali._.athar</span>
+              </li>
+              <li className="gap-2 flex items-center">
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="text-base sm:text-xl"
+                />
+               
+                <span className="sm:text-[1.5em] font-sans">Muhammad Ali Athar</span>
+              
+              </li>
+              <li className="gap-2 flex items-center">
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className=""
+                />
+                <span className="sm:text-[1.5em] font-sans">aliathae8@gmail.com</span>
+              </li>
+            </ul>
+            <h3 className="sm:text-[2em] font-serif">
+              Contact <span>Me</span>
+            </h3>
+          
+        </div>
+      </div>
