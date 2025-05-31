@@ -327,7 +327,7 @@ const Singlepage = () => {
           </nav>
         </div>
 
-        <div className="cards flex flex-col lg:flex-row justify-center ">
+        <div className="cards flex flex-col lg:flex-row justify-center">
           <div className="card1 w-full lg:w-auto">
             <div className="aboutpara w-full lg:max-w-[50vw] lg:w-[45vw] mx-2 sm:ml-3.5 mt-4 pt-16 sm:pt-[8rem] rounded-[13px] relative bg-[#b88351]">
               <div className="iconcode absolute top-2 right-2 sm:top-[10px] sm:right-[10px] sm:ml-[80%]">
@@ -487,7 +487,7 @@ const Singlepage = () => {
           </div>
         </Element>
 
-        <div className="contactmecontainer sm:mt-12  lg:mt-[5rem] py-8 sm:py-[7rem] flex justify-center rounded-[13px] px-4 sm:px-8 lg:px-[6em] relative flex-col items-center">
+        <div className="contactmecontainer sm:mt-12 mt-[4em] lg:mt-[5rem] py-8 sm:py-[7rem] flex justify-center rounded-[13px] px-4 sm:px-8 lg:px-[6em] relative flex-col items-center">
           <div className="bgtext mt-3 w-full flex justify-center items-center px-2 sm:pl-4 rounded-[13px] relative">
             <ul className="absolute z-10 flex flex-col gap-2 sm:gap-3 w-full max-w-xs sm:max-w-md lg:max-w-lg">
               <li className="q1 text-xs sm:text-base font-sans lg:text-[1.5rem] font-medium px-2 sm:px-[0.5rem] py-1 sm:py-2 bg-[#f5f5dc] flex justify-center rounded-[35px] text-center">
